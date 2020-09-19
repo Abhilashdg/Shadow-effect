@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(5, 17, 4);
+}
+
+.circle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 0 40px rgba(168, 10, 10, 0.4), 0 0 0 80px rgb(190, 10, 10, 0.2), 0 0 0 120px rgb(189, 17, 17, 0.2), 0 0 0 160px rgb(194, 16, 16, 0.2), 0 0 0 200px rgb(189, 15, 15, 0.2), 0 0 0 240px rgb(194, 16, 16, 0.2);
+}
